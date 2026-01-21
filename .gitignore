@@ -1,0 +1,51 @@
+# Build output
+/build/
+/build-*/
+
+# Qt Creator / qmake
+*.pro.user*
+*.qmake.stash
+*.autosave
+*.creator*
+*.files
+*.includes
+*.config
+*.qm
+
+# Qt generated sources
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Compiled binaries
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.app
+*.out
+*.pdb
+*.ilk
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDEs
+.vs/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
